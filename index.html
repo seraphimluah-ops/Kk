@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Lura AI - The AI That Builds Anything</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:#0a0a0a;color:#e5e5e5}
+.grad{background:linear-gradient(90deg,#ff6b35,#00a8ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.btn{background:#fff;color:#000;padding:14px 32px;border-radius:8px;font-weight:600;transition:.2s}
+.btn:hover{background:#e5e5e5;transform:translateY(-2px)}
+.btn-outline{border:1px solid #333;padding:14px 32px;border-radius:8px;font-weight:600;transition:.2s}
+.btn-outline:hover{background:#111}
+.card{background:#111;border:1px solid #222;border-radius:16px;padding:32px;transition:.3s}
+.card:hover{border-color:#00a8ff}
+.badge{background:#1a1a1a;border:1px solid #333;padding:6px 12px;border-radius:20px;font-size:12px}
+.grid-bg{background-image:linear-gradient(rgba(0,168,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(0,168,255,.05) 1px,transparent 1px);background-size:40px 40px}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 w-full bg-black/90 backdrop-blur z-50 border-b border-[#222]">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<div class="flex items-center gap-10">
+<b class="text-xl">LURA<span class="grad">AI</span></b>
+<div class="hidden lg:flex gap-6 text-sm text-gray-400">
+<a href="#product">Product</a><a href="#research">Research</a><a href="#safety">Safety</a><a href="#docs">Docs</a><a href="#pricing">Pricing</a>
+</div>
+</div>
+<div class="flex gap-3">
+<a href="lura.apk" download class="btn-outline text-sm">Download</a>
+<a href="#contact" class="btn text-sm">Get Started</a>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="pt-32 pb-24 px-6 text-center grid-bg">
+<div class="max-w-4xl mx-auto">
+<div class="badge inline-block mb-6">Founded by Mark Beranio</div>
+<h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">Build anything<br>with <span class="grad">LURA AI</span></h1>
+<p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">The world's most advanced AI for building apps, websites, and games. From prompt to production in 60 seconds.</p>
+<div class="flex gap-4 justify-center">
+<a href="lura.apk" download="LuraStudio.apk" class="btn">Download LURA Studio</a>
+<a href="#product" class="btn-outline">View Demo</a>
+</div>
+<p class="text-sm text-gray-500 mt-4">v6.0 AI Edition • Android 8.0+ • 15MB • No Ads</p>
+</div>
+</section>
+
+<!-- STATS -->
+<section class="py-16 px-6 border-t border-[#222]">
+<div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 text-center">
+<div><div class="text-4xl font-bold grad">50K+</div><div class="text-sm text-gray-400">Active Developers</div></div>
+<div><div class="text-4xl font-bold grad">10M+</div><div class="text-sm text-gray-400">Lines of AI Code</div></div>
+<div><div class="text-4xl font-bold grad">99.9%</div><div class="text-sm text-gray-400">Uptime</div></div>
+<div><div class="text-4xl font-bold grad"><50ms</div><div class="text-sm text-gray-400">Response Time</div></div>
+</div>
+</section>
+
+<!-- PRODUCT -->
+<section id="product" class="py-24 px-6 border-t border-[#222]">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-4xl font-bold text-center mb-4">The most capable AI for builders</h2>
+<p class="text-center text-gray-400 mb-16">LURA understands code, design, and deployment</p>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="card">
+<div class="text-3xl mb-4">🤖</div>
+<h3 class="text-xl font-bold mb-3">AI Code Generation</h3>
+<p class="text-gray-400">Describe your app in plain English. LURA generates full Android apps, websites, and games with clean, production-ready code.</p>
+</div>
+<div class="card">
+<div class="text-3xl mb-4">🎨</div>
+<h3 class="text-xl font-bold mb-3">AI UI/UX Design</h3>
+<p class="text-gray-400">Generate beautiful spaceship and modern UI components. 200+ templates ready to customize and deploy.</p>
+</div>
+<div class="card">
+<div class="text-3xl mb-4">⚡</div>
+<h3 class="text-xl font-bold mb-3">1-Click Deploy</h3>
+<p class="text-gray-400">Deploy directly to Netlify.app with free SSL, global CDN, and custom domains. No DevOps required.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="py-24 px-6 border-t border-[#222]">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-4xl font-bold text-center mb-16">Research & Innovation</h2>
+<div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+<div>
+<h3 class="text-2xl font-bold mb-4">Lead AI Researcher: Mark Beranio</h3>
+<p class="text-gray-400 mb-4">Mark Beranio is a leading AI researcher specializing in Large Language Models and Code Generation. Former researcher at Google AI and NVIDIA Research.</p>
+<p class="text-gray-400 mb-4">With 8+ years in ML research and 12 published papers, Mark leads LURA's mission to make software development 100x faster through AI.</p>
+<div class="flex gap-3 flex-wrap">
+<div class="badge">PhD Computer Science</div>
+<div class="badge">12 Research Papers</div>
+<div class="badge">5 AI Patents</div>
+</div>
+</div>
+<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800" class="rounded-2xl border border-[#222]">
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="card">
+<h3 class="font-bold mb-2">175B Parameter Model</h3>
+<p class="text-sm text-gray-400">Trained on 10M+ code repositories across 50+ programming languages.</p>
+</div>
+<div class="card">
+<h3 class="font-bold mb-2">Custom TPU Architecture</h3>
+<p class="text-sm text-gray-400">Proprietary chipsets for 100x faster code generation and inference.</p>
+</div>
+<div class="card">
+<h3 class="font-bold mb-2">Self-Learning System</h3>
+<p class="text-sm text-gray-400">LURA continuously improves from developer feedback and usage patterns.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CHIPSETS -->
+<section class="py-24 px-6 border-t border-[#222]">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-3xl font-bold text-center mb-12">Powered by Advanced Hardware</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=400" class="rounded-lg mb-4">
+<h3 class="font-bold mb-2">LURA TPU v1</h3>
+<p class="text-sm text-gray-400">Custom Tensor Processing Units designed specifically for code generation and AI inference workloads.</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=400" class="rounded-lg mb-4">
+<h3 class="font-bold mb-2">NVIDIA A100 Clusters</h3>
+<p class="text-sm text-gray-400">Massive GPU clusters power LURA's training and real-time model serving at global scale.</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=400" class="rounded-lg mb-4">
+<h3 class="font-bold mb-2">Netlify Edge Network</h3>
+<p class="text-sm text-gray-400">Global edge deployment ensures <50ms response time for all LURA users worldwide.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SAFETY -->
+<section id="safety" class="py-24 px-6 border-t border-[#222]">
+<div class="max-w-5xl mx-auto text-center">
+<h2 class="text-3xl font-bold mb-4">Safety & Responsibility</h2>
+<p class="text-gray-400 mb-12">LURA is built with safety, privacy, and security as core principles.</p>
+<div class="grid md:grid-cols-3 gap-6 text-left">
+<div class="card"><div class="text-2xl mb-3">🛡️</div><h3 class="font-bold mb-2">Code Protection</h3><p class="text-sm text-gray-400">Advanced obfuscation prevents reverse engineering. Your IP stays protected.</p></div>
+<div class="card"><div class="text-2xl mb-3">🔒</div><h3 class="font-bold mb-2">Privacy First</h3><p class="text-sm text-gray-400">All code generation happens locally. We never store your projects.</p></div>
+<div class="card"><div class="text-2xl mb-3">✓</div><h3 class="font-bold mb-2">Responsible AI</h3><p class="text-sm text-gray-400">Trained to refuse harmful requests and generate secure, ethical code.</p></div>
+</div>
+</div>
+</section>
+
+<!-- DOCS -->
+<section id="docs" class="py-24 px-6 border-t border-[#222]">
+<div class="max-w-6xl mx-auto">
+<h2 class="text-3xl font-bold text-center mb-12">Developer Documentation</h2>
+<div class="grid md:grid-cols-4 gap-6">
+<div class="card"><h3 class="font-bold mb-2">Quickstart</h3><p class="text-sm text-gray-400">Get started with LURA in 5 minutes</p></div>
+<div class="card"><h3 class="font-bold mb-2">API Reference</h3><p class="text-sm text-gray-400">Complete API documentation</p></div>
+<div class="card"><h3 class="font-bold mb-2">Examples</h3><p class="text-sm text-gray-400">Sample projects and templates</p></div>
+<div class="card"><h3 class="font-bold mb-2">Best Practices</h3><p class="text-sm text-gray-400">Tips for better AI results</p></div>
+</div>
+</div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="py-24 px-6 border-t border-[#222]">
+<div class="max-w-6xl mx-auto">
+<h2 class="text-4xl font-bold text-center mb-4">Simple, transparent pricing</h2>
+<p class="text-center text-gray-400 mb-12">Start free. Upgrade when you need more.</p>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="card">
+<h3 class="text-xl font-bold mb-2">Free</h3>
+<div class="text-3xl font-bold mb-4">₱0<span class="text-base text-gray-400">/month</span></div>
+<ul class="space-y-3 text-sm text-gray-400 mb-8">
+<li>✓ 10 AI generations/month</li>
+<li>✓ Basic LURA model</li>
+<li>✓ Community support</li>
+<li>✓ Netlify deployment</li>
+</ul>
+<a href="lura.apk" download class="btn-outline w-full block text-center">Download Free</a>
+</div>
+<div class="card border-2 border-[#00a8ff]">
+<div class="badge mb-3">Most Popular</div>
+<h3 class="text-xl font-bold mb-2">Pro</h3>
+<div class="text-3xl font-bold mb-4">₱299<span class="text-base text-gray-400">/month</span></div>
+<ul class="space-y-3 text-sm text-gray-400 mb-8">
+<li>✓ Unlimited AI generations</li>
+<li>✓ LURA Pro model</li>
+<li>✓ Priority GPU access</li>
+<li>✓ Advanced obfuscation</li>
+<li>✓ Email support</li>
+</ul>
+<a href="#contact" class="btn w-full block text-center">Upgrade to Pro</a>
+</div>
+<div class="card">
+<h3 class="text-xl font-bold mb-2">Enterprise</h3>
+<div class="text-3xl font-bold mb-4">Custom</div>
+<ul class="space-y-3 text-sm text-gray-400 mb-8">
+<li>✓ Custom AI training</li>
+<li>✓ Private deployment</li>
+<li>✓ Dedicated support</li>
+<li>✓ SLA guarantee</li>
+<li>✓ Mark Beranio consulting</li>
+</ul>
+<a href="#contact" class="btn-outline w-full block text-center">Contact Sales</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- BLOG -->
+<section class="py-24 px-6 border-t border-[#222]">
+<div class="max-w-6xl mx-auto">
+<h2 class="text-3xl font-bold text-center mb-12">Latest from LURA</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="card"><div class="text-xs text-gray-500 mb-2">Oct 5, 2026</div><h3 class="font-bold mb-2">LURA 6.0 Released</h3><p class="text-sm text-gray-400">New AI model with 2x faster code generation</p></div>
+<div class="card"><div class="text-xs text-gray-500 mb-2">Sep 28, 2026</div><h3 class="font-bold mb-2">Netlify Partnership</h3><p class="text-sm text-gray-400">1-click deploy now live for all users</p></div>
+<div class="card"><div class="text-xs text-gray-500 mb-2">Sep 15, 2026</div><h3 class="font-bold mb-2">Mark Beranio on AI</h3><p class="text-sm text-gray-400">The future of software development</p></div>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-24 px-6 border-t border-[#222]">
+<div class="max-w-2xl mx-auto">
+<h2 class="text-3xl font-bold text-center mb-8">Get in touch</h2>
+<div class="card">
+<input type="text" placeholder="Your Name" class="w-full bg-[#0a0a0a] border-[#333] p-3 rounded-lg mb-4">
+<input type="email" placeholder="Your Email" class="w-full bg-[#0a0a0a] border border-[#333] p-3 rounded-lg mb-4">
+<textarea placeholder="Message to Mark Beranio & LURA Team" rows="4" class="w-full bg-[#0a0a0a] border border-[#333] p-3 rounded-lg mb-4"></textarea>
+<button class="btn w-full">Send Message</button>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-16 px-6 border-t border-[#222]">
+<div class="max-w-7xl mx-auto grid md:grid-cols-5 gap-8 text-sm">
+<div><b class="text-lg">LURA<span class="grad">AI</span></b><p class="text-gray-500 mt-2">The AI that builds anything</p></div>
+<div><b class="mb-3 block">Product</b><ul class="space-y-2 text-gray-400"><li>Download</li><li>Features</li><li>Pricing</li><li>Changelog</li></ul></div>
+<div><b class="mb-3 block">Research</b><ul class="space-y-2 text-gray-400"><li>Mark Beranio</li><li>AI Models</li><li>Publications</li><li>Chipsets</li></ul></div>
+<div><b class="mb-3 block">Developers</b><ul class="space-y-2 text-gray-400"><li>Documentation</li><li>API</li><li>Examples</li><li>Status</li></ul></div>
+<div><b class="mb-3 block">Company</b><ul class="space-y-2 text-gray-400"><li>About</li><li>Careers</li><li>Contact</li><li>Netlify Partner</li></ul></div>
+</div>
+<div class="text-center text-gray-500 text-xs mt-12">© 2026 LURA AI. Researched by Mark Beranio. Official Partner: Netlify.app. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
